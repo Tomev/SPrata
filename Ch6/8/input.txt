@@ -1,0 +1,2 @@
+This is a sample input file.
+The application will count the letters and return their number.
