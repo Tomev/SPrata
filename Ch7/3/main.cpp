@@ -4,7 +4,7 @@
 #include <cstring>
 
 struct box{
-  char producent[40];
+  char producer[40];
   float height;
   float width;
   float length;
@@ -17,7 +17,7 @@ void setBoxsVolume(box &b){
 }
 
 void printBox(box b){
-  std::cout << "Producent: " << b.producent << std::endl
+  std::cout << "Producer: " << b.producer << std::endl
             << "Length: " << b.length << std::endl
             << "Height: " << b.height << std::endl
             << "Width: " << b.width << std::endl
