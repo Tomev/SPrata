@@ -35,5 +35,4 @@ void strcount(const std::string &str){
   total += count;
   cout << count << " znaków\n";
   cout << "Łącznie " << total << " znaków\n";
-
 }
