@@ -2,8 +2,6 @@
 
 #include <iostream>
 
-const int ArSize = 10;
-
 void strcount(const std::string &str);
 
 int main() {
