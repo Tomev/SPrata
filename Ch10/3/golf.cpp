@@ -6,13 +6,12 @@
 #include <iostream>
 #include "golf.h"
 
-golf::golf() {
+golf::golf() : handicap(0) {
   std::string name;
   std::cout << "Get name.\n";
   std::cin >> name;
   std::strcpy(fullName, name.c_str());
   std::cout << "Input handicap.\n";
-  handicap = 0;
   std::cin >> handicap;
 }
 
